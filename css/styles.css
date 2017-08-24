@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Monofett|Montserrat+Subrayada|Sriracha');
+
+
+body{
+  background-image: url('../assets/brick-wall.jpg');
+  background-size: 100% auto;
+  z-index: -1
+
+}
+
+h1{
+  font-family: 'Sriracha', cursive;
+  font-size: 5em;
+  line-height: auto;
+  text-align: center;
+  text-shadow: 3px 2px 5px #F7E4E5;
+  text-transform: uppercase
+  line-height: 1px;
+  margin-top:60px;
+  margin-bottom:0px;
+
+}
+
+h2{
+  font-family: 'Sriracha';
+  font-size: 2.5em;
+  color: maroon;
+  font-weight: bold
+  line-height: auto;
+  text-align: center;
+  text-shadow: 2px 2px 5px #F7E4E5;
+    margin-top:0.5px;
+  margin-bottom:50px;
+}
+
+img{
+    position: absolute;
+    top: 270px;
+    text-align: center important!;
+    float: center important!;
+
+}
+
+.guide{
+	display: flex;
+	align-items: center;
+	position: relative;
+	top: 30px;
+	left: 170px;
+	list-style: none
+	border: 10px solid black;
+	border-radius: 90px;
+	margin: 10px;
+	padding: 10px;
+	width: 95px;
+	background-color: firebrick;
+	box-sizing: border-box
+
+}
+
+li{
+	font-family: Sriracha
+	text-align: center;
+}
+
+a:link{
+	color: orange important!;
+}
+a:visited{
+	color: white important!;
+}
+
+li:hover{
+	background-color: orange important!;
+}
+
+
+#bottomhalf{
+	position: relative;
+	top: 250px;
+	font-family: 'Sriracha', cursive;
+  	font-size: 2em;
+  	line-height: auto;
+  	text-align: center;
+}
+
+#specialofday{
+    border: 10px dotted black;
+    border-radius: 50px;
+    padding:20px;
+    background-color:orangered;opacity:0.8;
+    box-sizing: content-box;
+
+}
+
+
+#today{
+font-family: 'Archivo Black';
+font-size: 1.5em
+}
+
+#specialname{
+font-family: 'Archivo Black';
+font-style: underline;
+}
+
+
+#addy{
+text-align: center;
+list-style: none;
+	position: relative;
+    border: 10px dotted black;
+    border-radius: 80px;
+    padding:10px;
+    background-color:orangered;opacity:0.8;
+}
+
+#menubackground{
+	background-color: lightgrey;opacity:0.8;
+	border: 10px dotted black;
+	border-color: black;
+	border-left-width: 10px
+}
+
+.pizza{
+	text-align: left
+}
+
+.description{
+font-family: Arial;
+text-align: left;
+}
+
+#hours{
+	list-style: none;
+	text-align: center
+		position: relative;
+    border: 10px dotted black;
+    border-radius: 80px;
+    padding:10px;
+    background-color:orangered;opacity:0.8;
+}
+
+#subscribe{
+	font-family: Arial;
+	font-size: 20px;
+	position: relative;
+    border: 10px dotted black;
+    border-radius: 80px;
+    padding:10px;
+    background-color:orangered;opacity:0.8;
+
+}
+
+footer{
+font-family: Arial;
+font-size: 15px;
+text-align: center;
+color: black;
+}
